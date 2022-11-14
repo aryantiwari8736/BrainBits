@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from '../Navbar'
-import Aboutus from '../Aboutus/Aboutus';
 import Footer from '../Footer/Footer';
 import Card from '../Domains/Card';
 const Homepage = () => {
@@ -48,16 +47,16 @@ const Homepage = () => {
 </p>
 <p className=''>Our members active on </p>
 <div className='flex gap-4 pt-4'>
-<img src='github.webp' className='h-10 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110   duration-300 ...'/>
-<img src='gfg.webp' className='h-10 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110   duration-300 ...'/>
-<img src='codeshef.webp' className='h-10 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110   duration-300 ...'/>
-<img src='codeforces.webp' className='h-10 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110   duration-300 ...'/>
+<img alt='git' src='github.webp' className='h-10 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110   duration-300 ...'/>
+<img alt='gfg' src='gfg.webp' className='h-10 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110   duration-300 ...'/>
+<img alt='codeshef' src='codeshef.webp' className='h-10 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110   duration-300 ...'/>
+<img alt='codeforces' src='codeforces.webp' className='h-10 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110   duration-300 ...'/>
 
-    <img src='leetcode.webp' className='h-10 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110   duration-300 ...'/>
+    <img alt='leetcode' src='leetcode.webp' className='h-10 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110   duration-300 ...'/>
 </div>
     </div>
     <div className=''>
-      <img src='realabout.gif' className='aboutimg'></img>
+      <img alt='realabout' src='realabout.gif' className='aboutimg'></img>
     </div>
 
 

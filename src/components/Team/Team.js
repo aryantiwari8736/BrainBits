@@ -34,7 +34,7 @@ const Team = () => {
           </p>
     </div>  
     <div className='flex '>
-      <img src='team.gif' className='imageteam'></img>
+      <img alt='team' src='team.gif' className='imageteam'></img>
     </div>
 </div>
 <div className="text-gray-600 body-font">

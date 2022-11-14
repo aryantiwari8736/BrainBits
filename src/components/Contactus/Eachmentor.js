@@ -17,7 +17,7 @@ function Eachmentor(props) {
                                 <div className="rounded overflow-hidden border  backgroundout shadow-md bg-white dark:bg-gray-900">
                                     <div className="absolute -mt-20 w-full flex justify-center">
                                         <div className="h-32 w-32">
-                                            <img src={props.image} alt="Check your internet" role="img" className="rounded-full object-cover h-full w-full shadow-md" />
+                                            <img src={props.image} alt="Check your internet" className="rounded-full object-cover h-full w-full shadow-md" />
                                         </div>
                                     </div>
                                     <div className="px-6 mt-16  ">
@@ -25,21 +25,21 @@ function Eachmentor(props) {
                                         <p className="text-gray-800 dark:text-white text-sm text-center">{props.position}</p>
                                         <p className="text-center text-gray-600 dark:text-gray-200 text-base pt-3 font-normal">{props.para}</p>
                                         <div className="w-full flex justify-center pt-5 pb-5">
-                                            <a href="javascript:void(0)" className="mx-5">
-                                                <div aria-label="Github" role="img">
+                                            {/* <a  className="mx-5">
+                                                <div aria-label="Github" >
                                                     <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/gray-bg-with-description-svg1.svg" alt="github" />
                                                 </div>
                                             </a>
-                                            <a href="javascript:void(0)" className="mx-5">
+                                            <a  className="mx-5">
                                                 <div aria-label="Twitter" role="img">
                                                     <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/gray-bg-with-description-svg2.svg" alt="twitter" />
                                                 </div>
                                             </a>
-                                            <a href="javascript:void(0)" className="mx-5">
+                                            <a className="mx-5">
                                                 <div aria-label="Instagram" role="img">
                                                     <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/gray-bg-with-description-svg3.svg" alt="instagram" />
                                                 </div>
-                                            </a>
+                                            </a> */}
                                         </div>
                                     </div>
                                 </div>
