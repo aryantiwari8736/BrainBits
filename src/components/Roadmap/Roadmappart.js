@@ -1,10 +1,15 @@
 import React from 'react'
-import Navbar from '../Navbar'
+// import Navbar from '../Navbar'
 import RoadmapCard from './RoadmapCard'
+import {Link} from 'react-router-dom'
 function Roadmappart() {
   return (
 <>
-<Navbar/>
+{/* <Navbar/> */}
+<section className=''>
+  <Link to="/material">
+  <img src='backbtn.webp' className='h-20 pt-6 pl-4' alt='brainbits'/></Link>
+</section>
    <section className='mt-10'>
             <div className='lg:text-5xl text-2xl  text-center mainfont font-extrabold text-zinc-900'>Everything From Basics to Advance</div>
             <p className='text-center pt-5 mx-8 lg:text-xl'>Hey folks, In this section of our community, we are going to post roadmaps for specific domains. The following roadmaps are designed with the help of experts in that domain. </p>
