@@ -3,7 +3,7 @@ import React from 'react'
 function RoadmapCard(props) {
   return (
     
-        <div className="px-3   md:w-1/3 ">
+        <div className="px-3 my-4  md:w-1/3 ">
           <a target="_blanck" href={props.link}>
         <div className="h-full backgroundcard  border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
           <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={props.rcardimg} alt="blog"/>
