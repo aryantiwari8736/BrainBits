@@ -21,6 +21,7 @@ function Interview() {
     <div className="flex flex-wrap -m-4">
        <InterviewCard link="https://miro.com/app/board/uXjVPDcNjJ8=/?share_link_id=669763743673" interviewimg="amzon.jpg" heading="Amazon Interview Question"/>
        <InterviewCard link="https://miro.com/app/board/uXjVPDcjB_Q=/?share_link_id=916951672460" interviewimg="linkedin.jpg" heading="Linkedin Interview Question"/>
+       <InterviewCard link="https://miro.com/app/board/uXjVPCkZp-I=/?share_link_id=704814031077" interviewimg="google.png" heading="Google Interview Question"/>
     </div>
   </div>
 </section></>
