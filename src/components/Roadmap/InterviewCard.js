@@ -4,7 +4,7 @@ function InterviewCard(props) {
   return (
     <div className="p-4  ">
     <a target="_blanck" href={props.link}>
-  <div className="h-full backgroundcard border-2  border-opacity-60 rounded-lg overflow-hidden">
+  <div className="h-full mx-6  backgroundcard border-2  border-opacity-60 rounded-lg overflow-hidden">
     <img className="lg:h-48  w-full object-cover object-center" src={props.interviewimg} alt="blog"/>
     <div className="p-6">
       <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">{props.category}</h2>

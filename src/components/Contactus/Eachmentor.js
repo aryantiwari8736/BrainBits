@@ -10,7 +10,7 @@ function Eachmentor(props) {
   <div className="flex-grow">
   <h2 className="text-gray-900 title-font font-bold mainfont">{props.name}</h2>
     <p className=" font-bold">{props.position}</p> <a href={props.linkLinkedin} target="_blanck"><i class="fa-brands fa-linkedin fa-2x tele"></i></a><i class="fa-brands fa-instagram fa-2x insta">  </i>
-    <img src={props.logo} className="h-4" alt='microsoft'/>
+    <img src={props.logo} className="h-4" alt='microsoft' />
   </div>
 </div>
 </div>
