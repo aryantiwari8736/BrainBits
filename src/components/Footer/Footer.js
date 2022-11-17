@@ -11,7 +11,7 @@ const Footer = () => {
           {/* <p className="leading-normal my-2 ">KIET Group Of Institution , */}
             {/* <br></br>Ghaziabad  */}
           {/* </p> */}
-          <p className="py-1"> Contact : 7061280059</p>
+          <p className="py-1"> Contact : 7061280059,8299550885</p>
 
           
     </div>
