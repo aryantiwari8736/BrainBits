@@ -66,18 +66,20 @@ export default function Navbar() {
                             <Link to="/material">Material</Link> 
                             </li>
                             <li className="text-gray-600 hover:text-blue-600" >
-                            <Link to="/about">About</Link> 
+                            <Link to="/contact">Mentors</Link> 
                             </li>
+                            
                             <li className="text-gray-600 hover:text-blue-600" >
                             <Link to="/team">Team</Link> 
+                            </li>
+                            <li className="text-gray-600 hover:text-blue-600" >
+                            <Link to="/about">About</Link> 
                             </li>
                             
                             {/* <li className="text-gray-600 hover:text-blue-600" >
                             <Link to="/compiler">Compiler</Link> 
                             </li> */}
-                            <li className="text-gray-600 hover:text-blue-600" >
-                            <Link to="/contact">Mentors</Link> 
-                            </li>
+                           
                             
 
                             

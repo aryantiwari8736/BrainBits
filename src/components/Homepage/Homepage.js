@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar'
 import Footer from '../Footer/Footer';
 import Card from '../Domains/Card';
+import './Homepages.css';
 const Homepage = () => {
   return (
     <div>
@@ -10,7 +11,7 @@ const Homepage = () => {
     {/* guhihi */}
   <div className="container mt-10 mx-auto flex px-5  md:flex-row flex-col items-center">
     <div className="lg:flex-grow  lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left  md:mb-0 items-center text-center">
-      <h1 className="title-font  text-2xl mb font-medium  mainfont letterspacemy">Community with Competetive Programers , Leetcoders and Developers.<br></br> <span className='font-bold'>KIET Group of Institutions</span> 
+      <h1 className="title-font  text-2xl mb font-medium  mainfont letterspacemy"><span className="frontheadcol">BrainBits </span> A Community with Competetive Programers , Leetcoders and Developers.<br></br> <span className='font-bold'>KIET Group of Institutions</span> 
         {/* <br className="hidden lg:inline-block">readymade gluten</br> */}
       </h1>
       {/* <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p> */}
@@ -26,7 +27,7 @@ const Homepage = () => {
     
       <a href="https://instagram.com/thebrainbits?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram fa-2x insta"></i></a>
       <a href="https://t.me/+GQr07DpdkIozZWY9" target="_blanck"> <i class="fa-brands fa-telegram fa-2x tele"></i></a>
-      <i class="fa-brands fa-discord fa-2x disc"></i>
+      <a href="https://discord.gg/jekmFhnVFU" target="_blanck"><i class="fa-brands fa-discord fa-2x disc"></i></a>
       <i class="fa-brands fa-twitter fa-2x twit"></i>
     
       </div>
@@ -43,7 +44,7 @@ const Homepage = () => {
 <div className='grid pt-10 mainfont lg:grid-cols-2 mx-10'>
     <div className='justify-center pt-8 lg:pl-32'>
         <h1 className='text-2xl font-semibold'>About us</h1>
-        <p className='text-gray-900 pt-5 font-normal'>We are a group of enthusiastic people who work together for all around growth of an individual. We conduct workshops related to different tech domains and all encourage an individual to learn the things in the proper manner with expert understanding. We are the fastest growing community in Kiet Group of Insititutions.
+        <p className='text-gray-900 pt-5 font-normal'>We are a group of enthusiastic people who work together for all around growth of an individual. We conduct workshops related to different tech domains and all encourage an individual to learn the things in the proper manner with expert understanding. We are the fastest growing community in Delhi NCR and mentors support from professional placed in elite companies.
 </p>
 <p className=''>Our members active on </p>
 <div className='flex gap-4 pt-4'>
