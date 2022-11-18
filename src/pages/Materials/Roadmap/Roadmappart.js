@@ -11,7 +11,7 @@ function Roadmappart() {
   <img src='backbtn.webp' className='h-20 pt-6 pl-4' alt='brainbits'/></Link>
 </section>
    <section className='mt-10'>
-   <h1 className='lg:text-5xl text-3xl  text-center  font-extrabold mx-6  '><span className='thecolor'>Road</span>maps!</h1>
+   <h1 className='lg:text-5xl text-3xl  text-center  font-extrabold mx-6 headingfont '><span className='thecolor'>Road</span>maps!</h1>
             {/* <p className='text-center pt-5 mx-8 lg:text-xl'>Hey folks, In this section of our community, we are going to post roadmaps for specific domains. The following roadmaps are designed with the help of experts in that domain. </p> */}
         </section>
         <section className="text-gray-600 body-font">

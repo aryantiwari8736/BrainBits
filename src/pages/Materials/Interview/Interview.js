@@ -12,7 +12,7 @@ function Interview() {
 </section>
     
     <section className='mt-10 '>
-    <h1 className='lg:text-5xl text-3xl  text-center  font-extrabold mx-6  '><span className='thecolor'>Preparing you for</span> MAANG!</h1>
+    <h1 className='lg:text-5xl text-3xl  text-center  headingfont mx-6  '><span className='thecolor'>Preparing you for</span> MAANG!</h1>
 
             {/* <p className='text-center pt-5 mx-8 lg:text-xl  '>Hey folks, In this section of our community, we are going to post roadmaps for specific domains. The following roadmaps are designed with the help of experts in that domain. </p> */}
         </section>
