@@ -11,21 +11,21 @@ const Homepage = () => {
     {/* guhihi */}
   <div className="container mt-10 mx-auto flex px-5  md:flex-row flex-col items-center">
     <div className="lg:flex-grow  lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left  md:mb-0 items-center text-center">
-      <h1 className="title-font text-2xl letterspacemy mainfont  mb  letterspacemy "><span className=" frontheadcol text-2xl">BrainBits </span> <span className='mainfont'>A Community with Competetive  Programers , Developers and Mentors .</span> <br></br> <span className='font-bold ' >KIET Group of Institutions</span> 
-        {/* <br className="hidden lg:inline-block">readymade gluten</br> */}
+      <h1 className="title-font text-2xl letterspacemy mainfont  mb  letterspacemy   "><span className=" frontheadcol text-2xl ">BrainBits </span> <span className='mainfont'>A Community with Competetive  Programers , Developers and Mentors .</span> <br></br> <span className='font-bold ' >KIET Group of Institutions</span> 
+        {/* <br className="hidden lg:inline-block">readymadWe gluten</br> */}
       </h1>
       {/* <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p> */}
       
       <div className="flex justify-center mainfont">
         <a href='https://forms.gle/cjCWWXFrfLhUq7oD9'>
-        <button className="  inline-flex   font-bold text-white  bg-violet-500 border-0 py-2 px-6 focus:outline-none mt-5 hover:bg-indigo-600 rounded text-lg">Join our community</button>
+        <button className="  inline-flex   font-bold text-white  bg-violet-500 border-0 py-2 px-6 focus:outline-none backgroundcard mt-5 hover:bg-indigo-600 rounded text-lg">Join our community</button>
         </a>
         {/* <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> */}
       </div>
       <div className='flex mt-7 gap-3 cursor-pointer '>
         <a href="https://www.linkedin.com/company/brainbitsapp/?lipi=urn%3Ali%3Apage%3Ad_flagship3_messaging%3BX2B3316eSZqWOZZelPIppQ%3D%3D&original_referer=" target="_blanck "><i class="fa-brands fa-linkedin fa-2x tele"></i></a>
     
-      <a href="https://instagram.com/thebrainbits?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram fa-2x insta"></i></a>
+      <a href="https://instagram.com/thebrainbits?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram fa-2x  insta"></i></a>
       <a href="https://t.me/+GQr07DpdkIozZWY9" target="_blanck"> <i class="fa-brands fa-telegram fa-2x tele"></i></a>
       <a href="https://discord.gg/jekmFhnVFU" target="_blanck"><i class="fa-brands fa-discord fa-2x disc"></i></a>
       <i class="fa-brands fa-twitter fa-2x twit"></i>
