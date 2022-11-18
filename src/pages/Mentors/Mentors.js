@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../Navbar'
+import Navbar from '../../components/Navbar/Navbar'
 import Eachmentor from './Eachmentor'
 import chetan from '../../assests/team/mentors/chetansagare.jpg'
 import palak from '../../assests/team/mentors/palaksharma.jpg'

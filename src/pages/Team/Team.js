@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../Navbar'
+import Navbar from '../../components/Navbar/Navbar'
 import saket from '../../assests/team/saket.jpeg'
  import aryan from '../../assests/team/aryan.jpeg'
 import vaibhav from '../../assests/team/vaibhav.jpeg'

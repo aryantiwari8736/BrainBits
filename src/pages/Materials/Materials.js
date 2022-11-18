@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Navbar from '../Navbar'
+import Navbar from '../../components/Navbar/Navbar'
 import MaterialCard from './MaterialCard'
 
 
@@ -18,6 +18,7 @@ function Materials() {
     <div className="flex flex-wrap -m-4 ">
    <Link to="/roadmap"> <MaterialCard roadmapimg = "roadmap.png" category="Roadmap" heading="Roadmaps For Everything"/></Link> 
    <Link to="/interview"> <MaterialCard roadmapimg = "interview.png" category="Roadmap" heading="Interview Questions"/></Link> 
+   <Link to="/programming"> <MaterialCard roadmapimg = "interview.png" category="Roadmap" heading="Programming Questions"/></Link> 
        
       </div>
   </div>

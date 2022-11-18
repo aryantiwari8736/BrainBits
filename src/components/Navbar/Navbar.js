@@ -66,7 +66,7 @@ export default function Navbar() {
                             <Link to="/material">Material</Link> 
                             </li>
                             <li className="text-gray-600 hover:text-blue-600" >
-                            <Link to="/contact">Mentors</Link> 
+                            <Link to="/mentors">Mentors</Link> 
                             </li>
                             
                             <li className="text-gray-600 hover:text-blue-600" >

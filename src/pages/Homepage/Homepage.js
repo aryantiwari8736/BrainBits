@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../Navbar'
-import Footer from '../Footer/Footer';
-import Card from '../Domains/Card';
+import Navbar from '../../components/Navbar/Navbar'
+import Footer from '../../components/Footer/Footer';
+import Card from '../../components/Domains/Card';
 import './Homepages.css';
 const Homepage = () => {
   return (
