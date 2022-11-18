@@ -11,7 +11,7 @@ const Homepage = () => {
     {/* guhihi */}
   <div className="container mt-10 mx-auto flex px-5  md:flex-row flex-col items-center">
     <div className="lg:flex-grow  lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left  md:mb-0 items-center text-center">
-      <h1 className="title-font text-2xl letterspacemy  mb headingfont letterspacemy "><span className="frontheadcol text-2xl">BrainBits </span>A Community with Competetive  Programers , Developers and Mentors .<br></br> <span className='font-bold'>KIET Group of Institutions</span> 
+      <h1 className="title-font text-2xl letterspacemy mainfont  mb  letterspacemy "><span className=" frontheadcol text-2xl">BrainBits </span> <span className='mainfont'>A Community with Competetive  Programers , Developers and Mentors .</span> <br></br> <span className='font-bold ' >KIET Group of Institutions</span> 
         {/* <br className="hidden lg:inline-block">readymade gluten</br> */}
       </h1>
       {/* <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p> */}
