@@ -15,8 +15,8 @@ const Contactus = () => {
   return (
     <div>
       <Navbar/>
-      <div className=''>
-<div className='flex justify-center   mainfont'>
+      <div className='dark:bg-black dark:text-white overflow-hidden'>
+<div className='flex justify-center  mainfont'>
 
   {/* <img src='commingsoon.gif' className='pt-1'/> */}
 </div>
