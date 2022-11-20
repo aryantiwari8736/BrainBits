@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../Navbar'
+import Navbar from '../../components/Navbar/Navbar'
 import Eachmentor from './Eachmentor'
 import chetan from '../../assests/team/mentors/chetansagare.jpg'
 import palak from '../../assests/team/mentors/palaksharma.jpg'
@@ -15,8 +15,8 @@ const Contactus = () => {
   return (
     <div>
       <Navbar/>
-      <div className=''>
-<div className='flex justify-center   mainfont'>
+      <div className='dark:bg-black dark:text-white overflow-hidden'>
+<div className='flex justify-center  mainfont'>
 
   {/* <img src='commingsoon.gif' className='pt-1'/> */}
 </div>

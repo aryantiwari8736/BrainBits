@@ -1,31 +1,39 @@
 import { Routes, Route } from "react-router-dom"
 import './App.css';
+import { useSelector } from 'react-redux'
 
-import Homepage from './components/Homepage/Homepage';
-import Aboutus from './components/Aboutus/Aboutus';
+import Homepage from './pages/Homepage/Homepage';
+import Aboutus from './pages/Aboutus/Aboutus';
 import Footer from './components/Footer/Footer'
-import Contactus from './components/Contactus/Contactus';
-import Team from './components/Team/Team';
-import Materials from "./components/Roadmap/Materials";
-import Python from "./components/Compiler/Python";
-import Roadmappart from "./components/Roadmap/Roadmappart";
-import Interview from "./components/Roadmap/Interview";
+import Mentors from './pages/Mentors/Mentors';
+import Team from './pages/Team/Team';
+import Materials from "./pages/Materials/Materials";
+import Roadmappart from "./pages/Materials/Roadmap/Roadmappart";
+import Interview from "./pages/Materials/Interview/Interview";
+import Programming from "./pages/Materials/Programming/Programming";
+import Mainpage from "./pages/Hackathon/Mainpage";
 
 
 function App() {
+
+  const mode = useSelector((state) => state.mode.value)
+
+
   return (
 
-    <div>
+    <div className={mode?"dark":""}>
       <Routes>
       <Route path="/" element={ <Homepage/>} />
       <Route path="/about" element={<Aboutus/>} />
       <Route path="/team" element={<Team/>} />
-      <Route path="/contact" element={<Contactus/>} />
+      <Route path="/mentors" element={<Mentors/>} />
       <Route path="/footer" element={<Footer/>} />
       <Route path="/roadmap" element={<Roadmappart/>}/>
       <Route path="/material" element={<Materials/>}/>
-      <Route path="/compiler" element={<Python/>}/>
       <Route path="/interview" element={<Interview/>}/>
+      <Route path="/programming" element={<Programming/>}/>
+      <Route path="/mainpage" element={<Mainpage/>}/>
+
       </Routes>
     </div>
   );

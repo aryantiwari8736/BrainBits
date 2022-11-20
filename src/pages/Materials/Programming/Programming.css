@@ -1,0 +1,48 @@
+.progCat{
+
+}
+.progactitem{
+    margin: 10px;
+    width: 20vw;
+}
+.mainTop{
+    display: flex;
+    
+   
+}
+.progCont{
+    display: flex;
+   flex-direction: column;
+}
+.progback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    color: white;
+    font-size: 2rem;
+
+
+}
+.progcontainer{
+    margin: 10px;
+    cursor: pointer;
+    width: 75vw;
+  
+}
+.dropbtn{
+   display: flex;
+   justify-content: space-between;
+    padding: 10px;
+    color: rgb(148, 148, 148);
+    font-size: 1.2rem;
+}
+.dropbtn:hover{
+    color: darkviolet;
+}
+.dropitem{
+    margin: 10px;
+}
