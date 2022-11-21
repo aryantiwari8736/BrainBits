@@ -2,9 +2,9 @@ import React from 'react'
 
 function MaterialCard(props) {
   return (
-    <div className="p-4 mainfont">
+    <div className="p-4 mainfont  ">
     
-    <div className="h-full m-8 lg:m-4 dark:bg-[#1d1d1d] hover:scale-110 transition-all border-opacity-60 rounded-lg overflow-hidden backgroundcard ">
+    <div className="h-full m-8 lg:m-4  border-opacity-60 rounded-lg overflow-hidden backgroundcard ">
     <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={props.roadmapimg} alt="blog"/>
     <div className="p-6  ">
       <h2 className="tracking-widest text-xs title-font font-extrabold text-gray-400 mb-1">{props.category}</h2>

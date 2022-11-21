@@ -23,12 +23,12 @@ import TeamCard from './TeamCard'
 
 const Team = () => {
   return (
-    <div className='dark:bg-black'>
+    <div>
   <Navbar/>
 <div className='grid pt-10 mainfont lg:grid-cols-2  mx-10'>
     <div className='justify-center pt-8 lg:pl-32'>
-        <h1 className='text-2xl font-semibold dark:text-white'>Our Team</h1>
-        <p className='text-gray-900 pt-5 font-normal dark:text-white'>We have a family thats works together , Our Team members will provide all sort of help with our level best. You can contact us via our instagram handles , linkedin and other social media platforms.
+        <h1 className='text-2xl font-semibold '>Our Team</h1>
+        <p className='text-gray-900 pt-5 font-normal'>We have a family thats works together , Our Team members will provide all sort of help with our level best. You can contact us via our instagram handles , linkedin and other social media platforms.
           </p>
     </div>  
     <div className='flex '>
@@ -38,7 +38,7 @@ const Team = () => {
 <div className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto">
     <div className="flex flex-col text-center w-full mb-20">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 dark:text-white">Core Team</h1>
+      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Core Team</h1>
       {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p> */}
     </div>
     <div className="flex flex-wrap -m-2 ">
