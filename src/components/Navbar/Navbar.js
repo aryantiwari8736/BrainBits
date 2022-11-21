@@ -1,28 +1,21 @@
 import { useState } from "react";
 import {Link} from 'react-router-dom'
-import {FaMoon} from 'react-icons/fa'
-import {BsFillSunFill} from 'react-icons/bs'
-import { useSelector, useDispatch } from 'react-redux'
-import { toggle } from '../../services/store/mode/modeSlice'
-
-export default function Navbar(props) {
+export default function Navbar() {
     const [navbar, setNavbar] = useState(false);
-    const mode = useSelector((state) => state.mode.value)
-    const dispatch = useDispatch()
 
     return (
-        <nav className="w-full dark:bg-[#000000] navback mainfont backdrop-blur-sm">
+        <nav className="w-full navback mainfont backdrop-blur-sm">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         
                         <Link to="/" className="flex items-center">
-                         <img src="logo.png" alt="" className="w-28" />
-                            <h2 className="text-2xl dark:text-white font-bold">BrainBits</h2>
+                         <img src="logo.jpeg" alt="" className="w-24" />
+                            <h2 className="text-2xl font-bold">BrainBits</h2>
                         </Link>
                         <div className="md:hidden">
                             <button
-                                className="p-2 text-gray-700 dark:text-white rounded-md outline-none focus:border-gray-400 focus:border"
+                                className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                                 onClick={() => setNavbar(!navbar)}
                             >
                                 {navbar ? (
@@ -64,27 +57,25 @@ export default function Navbar(props) {
                             navbar ? "block" : "hidden"
                         }`}
                     >
-                        <ul className="items-center text-gray-600 dark:text-white justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 font-semibold">
+                        <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 font-semibold">
                             
-                            <li className=" hover:text-blue-600" >
+                            <li className="text-gray-600 hover:text-blue-600" >
                                <Link to="/">Home</Link> 
                             </li>
-                            <li className=" hover:text-blue-600" >
+                            <li className="text-gray-600 hover:text-blue-600" >
                             <Link to="/material">Material</Link> 
                             </li>
-                            <li className="hover:text-blue-600" >
+                            {/* <li className="text-gray-600 hover:text-blue-600" >
                             <Link to="/mentors">Mentors</Link> 
-                            </li>
+                            </li> */}
                             
-                            <li className=" hover:text-blue-600" >
+                            <li className="text-gray-600 hover:text-blue-600" >
                             <Link to="/team">Team</Link> 
                             </li>
-                            <li className=" hover:text-blue-600" >
+                            <li className="text-gray-600 hover:text-blue-600" >
                             <Link to="/about">About</Link> 
                             </li>
-                            <li>
-                                <span className="cursor-pointer" onClick={() => dispatch(toggle())}>{mode?<BsFillSunFill/>:<FaMoon/>}</span> 
-                            </li>
+                            
                             {/* <li className="text-gray-600 hover:text-blue-600" >
                             <Link to="/compiler">Compiler</Link> 
                             </li> */}
