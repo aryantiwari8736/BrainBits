@@ -1,8 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
- */
+
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
  
  @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
@@ -11,14 +10,15 @@
     font-family: 'Righteous', cursive;
 
 }
+.letterspace {
+    letter-spacing: 1px;
+
+}
 .mainfont{
     font-family: 'Poppins', sans-serif;
-    /* font-weight:bolder; */
 
-    /* font-weight: 700; */
     color: rgb(66, 66, 66);
-    /* margin-top: 120px; */
-    /* padding-bottom: 48px; */
+  
 }
 .letterspacemy{
     letter-spacing:1px;
@@ -98,3 +98,4 @@ left: 7rem;
 .thecolor {
     color:rgba(255,192,1,255);
 }
+
