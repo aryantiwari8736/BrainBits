@@ -10,6 +10,7 @@ import Materials from "./pages/Materials/Materials";
 import Roadmappart from "./pages/Materials/Roadmap/Roadmappart";
 import Interview from "./pages/Materials/Interview/Interview";
 import Programming from "./pages/Materials/Programming/Programming";
+import Mainpage from "./pages/Hackathon/Mainpage";
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
     <div>
       <Routes>
       <Route path="/" element={ <Homepage/>} />
+      <Route path="/hackathon" element={ <Mainpage/>} />
+
       <Route path="/about" element={<Aboutus/>} />
       <Route path="/team" element={<Team/>} />
       <Route path="/mentors" element={<Mentors/>} />
