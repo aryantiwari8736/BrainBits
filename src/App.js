@@ -12,7 +12,6 @@ import Interview from "./pages/Materials/Interview/Interview";
 import Programming from "./pages/Materials/Programming/Programming";
 import Mainpage from "./pages/Hackathon/Mainpage";
 
-
 function App() {
   return (
 
@@ -29,6 +28,7 @@ function App() {
       <Route path="/material" element={<Materials/>}/>
       <Route path="/interview" element={<Interview/>}/>
       <Route path="/programming" element={<Programming/>}/>
+      <Route path="/hackathon" element={<Mainpage/>}/>
       </Routes>
     </div>
   );
