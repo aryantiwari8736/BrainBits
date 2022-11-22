@@ -2,6 +2,20 @@ import React from 'react'
 
 
 const Mainpage = () => {
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch('hack.pdf').then(response => {
+        response.blob().then(blob => {
+            // Creating new object of PDF file
+            const fileURL = window.URL.createObjectURL(blob);
+            // Setting various property values
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'hack.pdf';
+            alink.click();
+        })
+    })
+}
   return (
     <div className=' bg-gray-900 pb-96 '>
     <div className='bg-gray-900'>
@@ -26,10 +40,10 @@ const Mainpage = () => {
     </div>
     <div className=''>
       <img alt='realabout' src='backhack.png' className='aboutimg'></img>
+  
     </div>
-
     </div>
-
+    <button className='btn-grad'  onClick={onButtonClick}> Read More</button>
     
   <div className='text-white  headingfont bg-gray-900 pt-6 '>
     <h1 className='text-center headingfont py-6  text-3xl text-white'>Domains</h1>
@@ -65,6 +79,7 @@ const Mainpage = () => {
 
 </div>
 </div>
+
 
 </div>
   </div>
