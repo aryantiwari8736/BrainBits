@@ -11,12 +11,16 @@
     font-family: 'Righteous', cursive;
 
 }
+.bgblur{
+background-color: hsla(0,0%,100%,0);
+}
+
 .mainfont{
     font-family: 'Poppins', sans-serif;
     /* font-weight:bolder; */
 
     /* font-weight: 700; */
-    color: rgb(66, 66, 66);
+
     /* margin-top: 120px; */
     /* padding-bottom: 48px; */
 }
