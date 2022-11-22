@@ -4,7 +4,7 @@ export default function Navbar() {
     const [navbar, setNavbar] = useState(false);
 
     return (
-        <nav className="w-full navback mainfont backdrop-blur-sm">
+        <nav className="w-full bgblur  navback mainfont backdrop-blur-sm">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -66,6 +66,9 @@ export default function Navbar() {
                             <Link to="/material">Material</Link> 
                             </li>
                             {/* <li className="text-gray-600 hover:text-blue-600" >
+                            <Link to="/hackathon">Hackathon 1.0</Link> 
+                            </li> */}
+                            {/* <li className="text-gray-600 hover:text-blue-600" >
                             <Link to="/mentors">Mentors</Link> 
                             </li> */}
                             
@@ -75,6 +78,7 @@ export default function Navbar() {
                             <li className="text-gray-600 hover:text-blue-600" >
                             <Link to="/about">About</Link> 
                             </li>
+                          
                             
                             {/* <li className="text-gray-600 hover:text-blue-600" >
                             <Link to="/compiler">Compiler</Link> 
