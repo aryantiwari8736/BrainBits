@@ -3,6 +3,20 @@ import React from 'react'
 
 
 const Mainpage = (props) => {
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch('hack.pdf').then(response => {
+        response.blob().then(blob => {
+            // Creating new object of PDF file
+            const fileURL = window.URL.createObjectURL(blob);
+            // Setting various property values
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'hack.pdf';
+            alink.click();
+        })
+    })
+}
   return (
     <div className=' bg-gray-900   pb-96 '>
     <div className='brightness-  '>
@@ -114,12 +128,12 @@ const Mainpage = (props) => {
 <div className='py-5'>
 <img src='why1.webp' className='h-56  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 relative left-8   duration-300 ...' alt=''/>
 <div className=''>
-    <p className='text-2xl text-center py-4 backgroundcard mx-4'>Technical support if you have unique idea</p>
-
+  <p className='text-2xl text-center py-4 backgroundcard mx-4'>Technical support if you have unique idea</p>
 </div>
 </div>
 
 </div>
+<button onClick={onButtonClick} type="button" className="mx-10 my-4 formbg  headingfont text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none backgroundcard focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80  rounded-lg  px-5 py-2.5 text-center font- text-xl mr-2 mb-2">Download Brochure</button>
 </div>
 {/* HHHH*/}
 
