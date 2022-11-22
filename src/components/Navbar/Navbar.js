@@ -63,11 +63,14 @@ export default function Navbar() {
                                <Link to="/">Home</Link> 
                             </li>
                             <li className="text-gray-600 hover:text-blue-600" >
+                            <Link to="/hackathon">Hackathon 1.0</Link> 
+                            </li>
+                            <li className="text-gray-600 hover:text-blue-600" >
                             <Link to="/material">Material</Link> 
                             </li>
-                            {/* <li className="text-gray-600 hover:text-blue-600" >
+                            <li className="text-gray-600 hover:text-blue-600" >
                             <Link to="/hackathon">Hackathon 1.0</Link> 
-                            </li> */}
+                            </li>
                             {/* <li className="text-gray-600 hover:text-blue-600" >
                             <Link to="/mentors">Mentors</Link> 
                             </li> */}

@@ -131,7 +131,7 @@ const Mainpage = (props) => {
         <img alt='domain' src='money.webp' className='h-9'/>
     
       <h2 className=" text-white text-4xl text-center headingfont   font-bold title-font mb-2 mt-2 antialiased ...  lg:hover:text-gray-700 cursor-pointer  ">Winner</h2>
-        <p className="leading-relaxed  text-center  font-extrabold mainfont cursor-pointer text-white text-2xl">Worth Rs 5000</p>
+        <p className="leading-relaxed  text-center  font-extrabold mainfont cursor-pointer text-white text-2xl">Worth Rs 3500</p>
     </div>
   </div>
   <div className=" mx-12    p-10 ">
@@ -139,7 +139,7 @@ const Mainpage = (props) => {
         <img alt='domain' src='money.webp' className='h-9'/>
     
       <h2 className=" text-white text-4xl text-center headingfont   font-bold title-font mb-2 mt-2 antialiased ...  lg:hover:text-gray-700 cursor-pointer  ">Runner Up</h2>
-        <p className="leading-relaxed  text-center  font-extrabold mainfont text-white cursor-pointer text-2xl">Worth Rs 3000</p>
+        <p className="leading-relaxed  text-center  font-extrabold mainfont text-white cursor-pointer text-2xl">Worth Rs 1500</p>
     </div>
   </div>
 
