@@ -1,5 +1,5 @@
 import React from 'react'
-import chetan from '../../assests/team/mentors/chetansagare.jpg'
+// import chetan from '../../assests/team/mentors/chetansagare.jpg'
 
 
 const Mainpage = (props) => {
@@ -22,8 +22,9 @@ const Mainpage = (props) => {
         <p className='text-white dark:text-white pt-5 lg:text-xl headingfont  letterspace  font-normal'>Great ideas can come from anyone, anywhere. When tech enthusiasts come together from different regions, with diverse backgrounds and skill levels, amazing things can happen. These brilliant minds will invent something new something that could change our daily lives, the way we do business or approach humanitarian causes. Because when curious minds collaborate, the world wins.
 
 </p>
+<a href='https://docs.google.com/forms/d/e/1FAIpQLSc3m5Ty-3PDh5j7Q1Skp5kmT0I9V0614jgJRYOFfiUrKAncRw/viewform'>
 <button type="button" class=" my-4 formbg  headingfont text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none backgroundcard focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80  rounded-lg  px-5 py-2.5 text-center font- text-xl mr-2 mb-2">Register</button>
-
+</a>
 {/* <p className='dark:text-white'>Our members active on </p> */}
 
     </div>
@@ -138,14 +139,14 @@ const Mainpage = (props) => {
         <img alt='domain' src='money.webp' className='h-9'/>
     
       <h2 className=" text-white text-4xl text-center headingfont   font-bold title-font mb-2 mt-2 antialiased ...  lg:hover:text-gray-700 cursor-pointer  ">Runner Up</h2>
-        <p className="leading-relaxed  text-center  font-extrabold mainfont text-white cursor-pointer text-2xl">Worth Rs 5000</p>
+        <p className="leading-relaxed  text-center  font-extrabold mainfont text-white cursor-pointer text-2xl">Worth Rs 3000</p>
     </div>
   </div>
 
 {/* judges  */}
 </div>
 
-<h2 className='text-center text-3xl  bg-gray-900  lg:text-5xl  text-white  headingfont'>Judges</h2>
+{/* <h2 className='text-center text-3xl  bg-gray-900  lg:text-5xl  text-white  headingfont'>Judges</h2>
 <div className='grid bg-gray-900 lg:grid-cols-2'>
     <div className='m-12'>
         <img src={chetan} className='' alt='thebrainbits'/>
@@ -155,6 +156,8 @@ const Mainpage = (props) => {
         <img src={chetan} className='' alt='thebrainbits'/>
         <p className='text-xl namebg text-white mainfont'>Chetan Sagare <br></br>SDE @Microsoft</p>
     </div>
+    </div> */}
+
 
 
 
@@ -164,7 +167,6 @@ const Mainpage = (props) => {
   
 
 
-  </div>
     </div>
  </div>
  </div>
