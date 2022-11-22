@@ -24,10 +24,45 @@ background-color: hsla(0,0%,100%,0);
     /* margin-top: 120px; */
     /* padding-bottom: 48px; */
 }
+.back {
+  position: absolute;
+  display: flex;
+  align-items: center;
+
+  border-radius: 15px;
+  background-color: var(--white-rgba);
+  border: 2px solid var(--white-rgba);
+  backdrop-filter: blur(8px);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  transition: 1s;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+.formbg{
+
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+
+
+}
+.namebg{
+  
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border:  rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+
+
+
+}
 .letterspacemy{
     letter-spacing:1px;
     font-weight:bolder; 
-}
+    }
 .navback {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
