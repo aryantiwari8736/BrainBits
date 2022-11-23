@@ -163,16 +163,16 @@ const Mainpage = (props) => {
 {/* <h2 className='text-center text-3xl  bg-gray-900  lg:text-5xl  text-white  headingfont'>Judges</h2>
 <div className='grid bg-gray-900 lg:grid-cols-2'>
     <div className='m-12'>
-        <img src={chetan} className='' alt='thebrainbits'/>
+        <img src="judge1.png" className='' alt='thebrainbits'/>
         <p className='text-xl namebg text-white mainfont'>Chetan Sagare <br></br>SDE @Microsoft</p>
     </div>
     <div className='m-12'>
-        <img src={chetan} className='' alt='thebrainbits'/>
+        <img src="judge2.png" className='' alt='thebrainbits'/>
         <p className='text-xl namebg text-white mainfont'>Chetan Sagare <br></br>SDE @Microsoft</p>
     </div>
-    </div> */}
+    </div>
 
-
+ */}
 
 
 
