@@ -133,7 +133,7 @@ const Mainpage = (props) => {
 </div>
 
 </div>
-<button onClick={onButtonClick} type="button" className="mx-10 my-4 formbg  headingfont text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none backgroundcard focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80  rounded-lg  px-5 py-2.5 text-center font- text-xl mr-2 mb-2">Download Brochure</button>
+{/* <button onClick={onButtonClick} type="button" className="mx-10 my-4 formbg  headingfont text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none backgroundcard focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80  rounded-lg  px-5 py-2.5 text-center font- text-xl mr-2 mb-2">Download Brochure</button> */}
 </div>
 {/* HHHH*/}
 
