@@ -2,7 +2,7 @@ import React from 'react'
 // import chetan from '../../assests/team/mentors/chetansagare.jpg'
 
 
-// const Mainpage = (props) => {
+ const Mainpage = (props) => {
 //   const onButtonClick = () => {
 //     // using Java Script method to get PDF file
 //     fetch('hack.pdf').then(response => {
