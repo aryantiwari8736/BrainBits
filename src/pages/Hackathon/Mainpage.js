@@ -102,33 +102,33 @@ const Mainpage = (props) => {
     <h1 className='text-center headingfont py-6  text-3xl text-white lg:text-5xl frontheadcol'>Why you must take part ?</h1>
 <div className='grid bg-gray-900 mx-8 card justify-center lg:grid-cols-3'>
     <div className='py-5'>
-<img src='why1.webp' className='h-60 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110   duration-300 ...' alt=''/>
-<div className=''>
-    <p className='text-2xl text-center py-4  backgroundcard mx-4' >Be a part of our community BrainBits</p>
+{/* <img src='why1.webp' className='h-60 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110   duration-300 ...' alt=''/>  */}
+<div className=''> 
+    <p className='text-2xl text-center py-4 formbg backgroundcard mx-4' >Be a part of our community BrainBits</p>
 
 </div>
 </div>
 
 <div className='py-5'>
-<img src='why1.webp' className='h-56  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110   duration-300 ...' alt=''/>
+{/* <img src='why1.webp' className='h-56  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110   duration-300 ...' alt=''/>  */}
 <div className=''>
-    <p className='text-2xl text-center py-4 backgroundcard mx-4'>Interaction with judges</p>
+    <p className='text-2xl text-center py-4 formbg backgroundcard mx-4'>Interaction with judges</p>
 
 </div>
 </div>
 
 <div className='py-5'>
-<img src='why1.webp' className='h-56 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110   duration-300 ... relative left-8' alt=''/>
+{/* <img src='why1.webp' className='h-56 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110   duration-300 ... relative left-8' alt=''/>  */}
 <div className=''>
-    <p className='text-2xl text-center py-4 backgroundcard mx-4'>Increase your creativity</p>
+    <p className='text-2xl text-center py-4 formbg backgroundcard mx-4'>Increase your creativity</p>
 
 </div>
 </div>
 
 <div className='py-5'>
-<img src='why1.webp' className='h-56  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 relative left-8   duration-300 ...' alt=''/>
+{/* <img src='why1.webp' className='h-56  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 relative left-8   duration-300 ...' alt=''/>  */}
 <div className=''>
-  <p className='text-2xl text-center py-4 backgroundcard mx-4'>Technical support if you have unique idea</p>
+  <p className='text-2xl text-center py-4 formbg backgroundcard mx-4'>Technical support for free if you have unique idea</p>
 </div>
 </div>
 
@@ -145,7 +145,7 @@ const Mainpage = (props) => {
         <img alt='domain' src='money.webp' className='h-9'/>
     
       <h2 className=" text-white text-4xl text-center headingfont   font-bold title-font mb-2 mt-2 antialiased ...  lg:hover:text-gray-700 cursor-pointer  ">Winner</h2>
-        <p className="leading-relaxed  text-center  font-extrabold mainfont cursor-pointer text-white text-2xl">Worth Rs 5000</p>
+        <p className="leading-relaxed  text-center  font-extrabold mainfont cursor-pointer text-white text-2xl">Worth Rs 3500</p>
     </div>
   </div>
   <div className=" mx-12    p-10 ">
@@ -153,7 +153,7 @@ const Mainpage = (props) => {
         <img alt='domain' src='money.webp' className='h-9'/>
     
       <h2 className=" text-white text-4xl text-center headingfont   font-bold title-font mb-2 mt-2 antialiased ...  lg:hover:text-gray-700 cursor-pointer  ">Runner Up</h2>
-        <p className="leading-relaxed  text-center  font-extrabold mainfont text-white cursor-pointer text-2xl">Worth Rs 3000</p>
+        <p className="leading-relaxed  text-center  font-extrabold mainfont text-white cursor-pointer text-2xl">Worth Rs 1500</p>
     </div>
   </div>
 
@@ -163,16 +163,16 @@ const Mainpage = (props) => {
 {/* <h2 className='text-center text-3xl  bg-gray-900  lg:text-5xl  text-white  headingfont'>Judges</h2>
 <div className='grid bg-gray-900 lg:grid-cols-2'>
     <div className='m-12'>
-        <img src={chetan} className='' alt='thebrainbits'/>
+        <img src="judge1.png" className='' alt='thebrainbits'/>
         <p className='text-xl namebg text-white mainfont'>Chetan Sagare <br></br>SDE @Microsoft</p>
     </div>
     <div className='m-12'>
-        <img src={chetan} className='' alt='thebrainbits'/>
+        <img src="judge2.png" className='' alt='thebrainbits'/>
         <p className='text-xl namebg text-white mainfont'>Chetan Sagare <br></br>SDE @Microsoft</p>
     </div>
-    </div> */}
+    </div>
 
-
+ */}
 
 
 

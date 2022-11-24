@@ -11,7 +11,7 @@ const Homepage = () => {
     {/* guhihi */}
   <div className="container mt-10 mx-auto flex px-5  md:flex-row flex-col items-center">
     <div className="lg:flex-grow  lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left  md:mb-0 items-center text-center">
-      <h1 className="title-font text-2xl letterspacemy mainfont  mb  letterspacemy   "><span className=" frontheadcol text-2xl ">BrainBits </span> <span className='mainfont'>A Community with Competetive  Programers , Developers and Mentors .</span> <br></br> <span className='font-bold ' >KIET Group of Institutions</span> 
+      <h1 className="title-font text-2xl letterspacemy mainfont  mb  letterspacemy   "><span className=" frontheadcol headingfont text-2xl ">BrainBits </span> <span className='mainfont'>A Community with Competetive  Programers , Developers, Mentors and founders .</span> <br></br> <span className='headingfont font-bold frontheadcol ' >Have an idea ? Want technical support for free ?</span> 
         {/* <br className="hidden lg:inline-block">readymadWe gluten</br> */}
       </h1>
       {/* <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p> */}
@@ -43,9 +43,21 @@ const Homepage = () => {
 
 <div className='grid pt-10 mainfont lg:grid-cols-2 mx-10'>
     <div className='justify-center pt-8 lg:pl-32'>
-        <h1 className='text-2xl font-semibold'>About us</h1>
-        <p className='text-gray-900 pt-5 font-normal'>We are a group of enthusiastic people who work together for all around growth of an individual. We conduct workshops related to different tech domains and all encourage an individual to learn the things in the proper manner with expert understanding. We are the fastest growing community in Delhi NCR and mentors support from professional placed in elite companies.
+        <h1 className='text-2xl font-semibold text-black'>About us</h1>
+        <p className='pt-5 text-black font-bold'>We are a group of enthusiastic people who work together for all around growth of an individual. We conduct workshops related to different tech domains and all encourage an individual to learn the things in the proper manner with expert understanding. We are the fastest growing community in Delhi NCR and mentors support from professional placed in elite companies.
 </p>
+<ul>
+<li className='headingfont text-xl'>Full technical support for free to innovative ideas</li>
+<li   className='headingfont text-xl'> Get a chance to intreact with out mentors one to one.</li>
+<li   className='headingfont text-xl'> Be a part of our community .</li>
+<li   className='headingfont text-xl'>Get an oppurtunity to win Hackathons every month.</li>
+{/* <li   className='headingfont text-xl'>Get an oppurtunity to win Hackathons every month.</li>  */}
+
+
+
+
+
+</ul>
 <p className=''>Our members active on </p>
 <div className='flex gap-4 pt-4'>
 <img alt='git' src='github.webp' className='h-10 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110   duration-300 ...'/>
