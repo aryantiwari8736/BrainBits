@@ -2,21 +2,21 @@ import React from 'react'
 // import chetan from '../../assests/team/mentors/chetansagare.jpg'
 
 
-const Mainpage = (props) => {
-  const onButtonClick = () => {
-    // using Java Script method to get PDF file
-    fetch('hack.pdf').then(response => {
-        response.blob().then(blob => {
-            // Creating new object of PDF file
-            const fileURL = window.URL.createObjectURL(blob);
-            // Setting various property values
-            let alink = document.createElement('a');
-            alink.href = fileURL;
-            alink.download = 'hack.pdf';
-            alink.click();
-        })
-    })
-}
+// const Mainpage = (props) => {
+//   const onButtonClick = () => {
+//     // using Java Script method to get PDF file
+//     fetch('hack.pdf').then(response => {
+//         response.blob().then(blob => {
+//             // Creating new object of PDF file
+//             const fileURL = window.URL.createObjectURL(blob);
+//             // Setting various property values
+//             let alink = document.createElement('a');
+//             alink.href = fileURL;
+//             alink.download = 'hack.pdf';
+//             alink.click();
+//         })
+//     })
+// }
   return (
     <div className=' bg-gray-900   pb-96 '>
     <div className='brightness-  '>
