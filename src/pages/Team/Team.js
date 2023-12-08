@@ -2,16 +2,11 @@ import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
 import saket from '../../assests/team/saket.jpeg'
  import aryan from '../../assests/team/aryan.jpeg'
-import vaibhav from '../../assests/team/vaibhav.jpeg'
-import ashish from '../../assests/team/ashishbhatt.jpeg'
 import prabhat from '../../assests/team/prabhat.jpg'
-import ashwin from '../../assests/team/ashwin.jpeg'
-import dev from '../../assests/team/dev.jpeg'
-import om from '../../assests/team/omdaryani.jpg'
-import sahib from '../../assests/team/sahibnew.jpg'
-import dhruv from '../../assests/team/dhruv.jpg'
+import sakshi from '../../assests/team/sakshi.jpg'
+import dishant from '../../assests/team/dishant.jpg'
+import ashwin from '../../assests/team/ashwin.jpg'
 import lakshya from '../../assests/team/lakshya.png'
-import prakhal from '../../assests/team/prakhal.JPG'
 import gaurav from '../../assests/team/gaurav.png'
 import TeamCard from './TeamCard'
 
@@ -43,19 +38,15 @@ const Team = () => {
     </div>
     <div className="flex flex-wrap -m-2 ">
       
-   <TeamCard name="Saket Tiwari"  linkLinkedin="https://www.linkedin.com/in/saket-tiwari-603300213" position="Co-Founder" image={saket}/>
-   <TeamCard name="Aryan Tiwari"  linkLinkedin="https://www.linkedin.com/in/aryan-tiwari-b397b8229" position="Co-Founder" instalink="https://www.instagram.com/_shanu_14_/" image={aryan}/>
-   <TeamCard name="Vaibhav Bisht" linkLinkedin="https://www.linkedin.com/in/vaibhav-bisht-54519522a" position="General-Secretary" image={vaibhav}/>
-   <TeamCard name="Ashish Bhatt" linkLinkedin="https://www.linkedin.com/in/ashish-bhatt-9b1937225" position="Coordinator" image={ashish}/>
-   <TeamCard name="Prabhat Sahrawat" linkLinkedin="https://www.linkedin.com/in/prabhatsahrawat" position="Coordinator" image={prabhat}/>
-   <TeamCard name="Dev Varshney" linkLinkedin="https://www.linkedin.com/in/varshneydev27" position="Coordinator" image={dev}/>
-   <TeamCard name="Sahib Singh" linkLinkedin="https://www.linkedin.com/in/sahib-singh-b715b2207" position="CP Lead" image={sahib}/>
-   <TeamCard name="Gaurav Payal" linkLinkedin="https://www.linkedin.com/in/2oo3-gaurav" position="Graphics Lead" image={gaurav}/>
-   <TeamCard name="Lakshya Garg" linkLinkedin="https://www.linkedin.com/in/lakshya-garg-1358a6239" position="Social Media Manager" image={lakshya}/>
-   <TeamCard name="Om Daryani" linkLinkedin="https://www.linkedin.com/in/om-daryani-473151239" position="Frontend -Developer" image={om}/>
-   <TeamCard name="Ashiwn Yadav" linkLinkedin="https://www.linkedin.com/in/ashwin-yadav-7930b0207" position="Frontend Developer || PR" image={ashwin}/>
-   <TeamCard name="Prakhal Gupta" linkLinkedin="https://www.linkedin.com/in/prakhal-gupta" position="Backend Developer" image={prakhal}/>
-   <TeamCard name="Dhruv Rastogi" linkLinkedin="https://www.linkedin.com/in/dhruv-rastogi-62ab70229" position="Flutter Developer" image={dhruv}/>
+    <TeamCard name="Saket Tiwari"  linkLinkedin="https://www.linkedin.com/in/saket-tiwari-603300213" position="Co-Founder" image={saket}/>
+   <TeamCard name="Aryan Tiwari"  linkLinkedin="https://www.linkedin.com/in/aryan-tiwari-b397b8229" position="Co-Founder" image={aryan}/>
+   <TeamCard name="Ashiwn Yadav" linkLinkedin="https://www.linkedin.com/in/ashwin-yadav-7930b0207" position="General Secretary" image={ashwin}/>
+   <TeamCard name="Dishant Sharma" linkLinkedin="https://www.linkedin.com/in/dishant-sharma-71450b229/" position="Public Relation Head" image={dishant}/>
+   <TeamCard name="Sakshi Gupta" linkLinkedin="https://www.linkedin.com/in/sakshi-gupta-9aa7b01b2" position="Coordinator" image={sakshi}/>
+   <TeamCard name="Lakshya Garg" linkLinkedin="https://www.linkedin.com/in/lakshya-garg-1358a6239" position="Coordinator" image={lakshya}/>
+  <TeamCard name="Prabhat Sahrawat" linkLinkedin="https://www.linkedin.com/in/prabhatsahrawat" position="Coordinator" image={prabhat}/>
+  <TeamCard name="Gaurav Payal" linkLinkedin="https://www.linkedin.com/in/2oo3-gaurav" position="Graphics Head" image={gaurav}/>
+
    </div>
     </div>
   </div>
