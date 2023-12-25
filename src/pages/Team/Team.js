@@ -20,7 +20,7 @@ const Team = () => {
   return (
     <div>
   <Navbar/>
-<div className='grid pt-10 mainfont lg:grid-cols-2  mx-10'>
+<div className='grid pt-10 mainfont lg:grid-cols-2  mx-10 '>
     <div className='justify-center pt-8 lg:pl-32'>
         <h1 className='text-2xl font-semibold '>Our Team</h1>
         <p className='text-gray-900 pt-5 font-normal'>We have a family thats works together , Our Team members will provide all sort of help with our level best. You can contact us via our instagram handles , linkedin and other social media platforms.
@@ -38,14 +38,14 @@ const Team = () => {
     </div>
     <div className="flex flex-wrap -m-2 ">
       
-    <TeamCard name="Saket Tiwari"  linkLinkedin="https://www.linkedin.com/in/saket-tiwari-603300213" position="Co-Founder" image={saket}/>
-   <TeamCard name="Aryan Tiwari"  linkLinkedin="https://www.linkedin.com/in/aryan-tiwari-b397b8229" position="Co-Founder" image={aryan}/>
-   <TeamCard name="Ashiwn Yadav" linkLinkedin="https://www.linkedin.com/in/ashwin-yadav-7930b0207" position="General Secretary" image={ashwin}/>
-   <TeamCard name="Dishant Sharma" linkLinkedin="https://www.linkedin.com/in/dishant-sharma-71450b229/" position="Public Relation Head" image={dishant}/>
-   <TeamCard name="Sakshi Gupta" linkLinkedin="https://www.linkedin.com/in/sakshi-gupta-9aa7b01b2" position="Coordinator" image={sakshi}/>
-   <TeamCard name="Lakshya Garg" linkLinkedin="https://www.linkedin.com/in/lakshya-garg-1358a6239" position="Coordinator" image={lakshya}/>
-  <TeamCard name="Prabhat Sahrawat" linkLinkedin="https://www.linkedin.com/in/prabhatsahrawat" position="Coordinator" image={prabhat}/>
-  <TeamCard name="Gaurav Payal" linkLinkedin="https://www.linkedin.com/in/2oo3-gaurav" position="Graphics Head" image={gaurav}/>
+    <TeamCard name="Saket Tiwari"  linkLinkedin="https://www.linkedin.com/in/saket-tiwari-603300213" instalink="https://www.instagram.com/being_saket_33/" position="Co-Founder" image={saket}/>
+   <TeamCard name="Aryan Tiwari"  linkLinkedin="https://www.linkedin.com/in/aryan-tiwari-b397b8229" instalink="https://www.instagram.com/_shanu_14_/" position="Co-Founder" image={aryan}/>
+   <TeamCard name="Ashiwn Yadav" linkLinkedin="https://www.linkedin.com/in/ashwin-yadav-7930b0207" instalink="https://www.instagram.com/ashwinyadav_84/" position="General Secretary" image={ashwin}/>
+   <TeamCard name="Dishant Sharma" linkLinkedin="https://www.linkedin.com/in/dishant-sharma-71450b229/" instalink="https://www.instagram.com/dtb_vaardat19/" position="Public Relation Head" image={dishant}/>
+   <TeamCard name="Sakshi Gupta" linkLinkedin="https://www.linkedin.com/in/sakshi-gupta-9aa7b01b2"instalink="https://www.instagram.com/sakshigupta__01/" position="Coordinator" image={sakshi}/>
+   <TeamCard name="Lakshya Garg" linkLinkedin="https://www.linkedin.com/in/lakshya-garg-1358a6239"instalink="https://www.instagram.com/laks.hyagarg/" position="Coordinator" image={lakshya}/>
+  <TeamCard name="Prabhat Sahrawat" linkLinkedin="https://www.linkedin.com/in/prabhatsahrawat" instalink="https://www.instagram.com/prabhat_021/" position="Coordinator" image={prabhat}/>
+  <TeamCard name="Gaurav Payal" linkLinkedin="https://www.linkedin.com/in/2oo3-gaurav" instalink="https://www.instagram.com/2oo3_gaurav_payal/" position="Graphics Head" image={gaurav}/>
 
    </div>
     </div>
